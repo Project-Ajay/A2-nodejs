@@ -26,7 +26,7 @@ jobs:
         with:
           context: .  # Build Docker image from the current directory
           push: true   # Push the image to Docker Hub
-          tags: <docker-username>/<repo-name>:latest  # Replace with your Docker Hub username and repository name
+          tags: ajay074/a2-nodejs:latest  # Replace with your Docker Hub username and repository name
 
   deploy:
     runs-on: ubuntu-latest
